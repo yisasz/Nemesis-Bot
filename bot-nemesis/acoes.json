@@ -1,0 +1,21 @@
+{
+    "1": {
+        "vagas": 10,
+        "data": "20/10/2025",
+        "texto": "Banco central",
+        "hora": "21:00",
+        "escalados": [
+            "Isa"
+        ]
+    },
+    "2": {
+        "vagas": 10,
+        "data": "12/10/2025",
+        "texto": "jojo",
+        "hora": "19:00",
+        "escalados": [
+            "Jade Blackwood | 1195",
+            "Isa"
+        ]
+    }
+}
