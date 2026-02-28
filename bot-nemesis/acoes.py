@@ -5,10 +5,10 @@ from datetime import datetime
 import json
 import os
 
-CANAL_ACAO_ID = 1419437871324201022 
-CANAL_ESCALACAO_ID = 1419437899417653358
-CARGO_MENCAO_ID = 1419435018828124201
-MEU_ID = 683772279854858258
+CANAL_ACAO_ID = 00000000000 
+CANAL_ESCALACAO_ID = 00000000000
+CARGO_MENCAO_ID = 00000000000
+MEU_ID = 00000000000
 
 # Caminho do arquivo de bloqueios
 CAMINHO_BLOQUEIOS = "bloqueios.json"
@@ -212,4 +212,5 @@ class Acoes(commands.Cog):
 
 
 async def setup(bot):
+
     await bot.add_cog(Acoes(bot, {}, lambda x: None))
