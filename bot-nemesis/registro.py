@@ -3,8 +3,8 @@ from discord.ext import commands, tasks
 import json
 
 CAMINHO_USUARIOS = "usuarios.json"
-ID_CANAL_REGISTRO = 1419435467903991838  # Canal 🔔┃solicitar-set
-ID_CANAL_LOGS = 1419435467903991840      # <- coloque aqui o ID do canal de logs
+ID_CANAL_REGISTRO = 00000000000  
+ID_CANAL_LOGS = 00000000000      
 usuarios = {}
 
 def salvar_em_arquivo(caminho, dados):
@@ -110,3 +110,4 @@ class Registro(commands.Cog):
 
 async def setup(bot):
     await bot.add_cog(Registro(bot))
+
