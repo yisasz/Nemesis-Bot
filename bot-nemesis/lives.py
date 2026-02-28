@@ -7,9 +7,9 @@ import json
 import os
 
 CAMINHO_LIVES = "lives_registradas.json"
-OWNER_ID = 683772279854858258
-CANAL_LIVES_ID = 1419439111483293857
-CANAL_SET_LIVES = 1419439030936010771  # Canal 🎥・set lives-pm
+OWNER_ID = 00000000000
+CANAL_LIVES_ID = 00000000000
+CANAL_SET_LIVES = 00000000000  
 
 def carregar_arquivo(caminho):
     if os.path.exists(caminho):
@@ -343,4 +343,5 @@ async def setup(bot):
     await bot.add_cog(Lives(bot))
     atualizar_lives.bot_reference = bot
     if not atualizar_lives.is_running():
+
         atualizar_lives.start()
