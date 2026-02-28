@@ -61,10 +61,10 @@ contador_acoes = len(acoes_ativas) + 1
 
 
 # ====== SEU ID (troque pelo seu Discord ID) ====== #
-MEU_ID = 683772279854858258  # Substitua aqui pelo seu ID
-CANAL_ACAO_ID = 1419427499183440023
-CANAL_ESCALACAO_ID = 1419427533165826110
-CARGO_MENCAO_ID = 1419427417155567657
+MEU_ID = 00000000  # Substitua aqui pelo seu ID
+CANAL_ACAO_ID = 000000000
+CANAL_ESCALACAO_ID = 000000000
+CARGO_MENCAO_ID = 000000000
 
 @tasks.loop(minutes=1)
 async def reset_semanal():
@@ -176,6 +176,7 @@ async def main():
         await bot.load_extension("perimetro")
         await bot.load_extension("registro")
         await bot.load_extension("lives")
-        await bot.start("MTI3NTE2NTE2NTQ2OTQzNzk2Mw.GuEOdL.k6tbJ9iEwM-0sNeSM2jf0-7Uyof-t8pCWrIuyg")  # Inicia o bot corretamente
+        await bot.start("TOKEN_BOT")  # Inicia o bot corretamente
 
 asyncio.run(main())
+
