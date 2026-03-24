@@ -1,4 +1,4 @@
-# 🚀 Bot Nemesis 
+# 🚀 Nemeis Bot 
 
 O **Bot Nemesis** é um sistema inteligente de automação para servidores Discord, desenvolvido em **Python** utilizando a biblioteca `discord.py`.
 
